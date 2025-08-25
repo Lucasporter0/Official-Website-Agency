@@ -1,13 +1,25 @@
 import type { Config } from "tailwindcss";
 
-export default {
-  content: ["./src/app/**/*.{ts,tsx}", "./src/components/**/*.{ts,tsx}"],
+const config: Config = {
+  content: [
+    "./src/app/**/*.{js,ts,jsx,tsx}",
+    "./src/components/**/*.{js,ts,jsx,tsx}"
+  ],
   theme: {
     extend: {
       colors: {
-        brand: { DEFAULT: "#0D1B1E", accent: "#4ADE80", soft: "#F3F5F4" }
+        brand: {
+          DEFAULT: "#0D1B1E", // deep ink
+          accent: "#4ADE80",  // calm green accent
+          soft: "#F3F5F4"     // near-white
+        }
+      },
+      borderRadius: {
+        "2xl": "var(--radius)"
       }
     }
   },
   plugins: []
-} satisfies Config;
+};
+
+export default config;
