@@ -1,4 +1,4 @@
-// OVERWRITE: src/app/page.tsx
+// src/app/page.tsx
 import styles from "./home.module.css";
 
 export default function HomePage() {
@@ -38,9 +38,7 @@ export default function HomePage() {
           <div className={styles.grid3}>
             <article className={styles.card}>
               <h3 className={styles.h3}>Starter Website</h3>
-              <p className={styles.cardText}>
-                1–3 page site. Strategy, design, build, launch. Fast, clean, and mobile-first.
-              </p>
+              <p className={styles.cardText}>1–3 page site. Strategy, design, build, launch. Fast, clean, and mobile-first.</p>
               <ul className={styles.list}>
                 <li>Home, About, Contact</li>
                 <li>Basic SEO & analytics</li>
@@ -51,9 +49,7 @@ export default function HomePage() {
 
             <article className={styles.card}>
               <h3 className={styles.h3}>Growth Website</h3>
-              <p className={styles.cardText}>
-                Multi-page site with SEO, blog, and the integrations you actually use.
-              </p>
+              <p className={styles.cardText}>Multi-page site with SEO, blog, and the integrations you actually use.</p>
               <ul className={styles.list}>
                 <li>Custom components & pages</li>
                 <li>SEO schema + blog setup</li>
@@ -64,9 +60,7 @@ export default function HomePage() {
 
             <article className={styles.card}>
               <h3 className={styles.h3}>Premium Funnel</h3>
-              <p className={styles.cardText}>
-                Website + lead capture + conversion-focused landing flow.
-              </p>
+              <p className={styles.cardText}>Website + lead capture + conversion-focused landing flow.</p>
               <ul className={styles.list}>
                 <li>Landing + lead magnet</li>
                 <li>Email sequences (Klaviyo/Mailchimp)</li>
@@ -120,9 +114,7 @@ export default function HomePage() {
           <header className={styles.header}>
             <p className={styles.tag}>Contact</p>
             <h2 className={styles.h2}>Tell us what you’re building</h2>
-            <p className={styles.sub}>
-              Share your goals and constraints. We’ll reply with a tailored proposal—no generic pricing tables.
-            </p>
+            <p className={styles.sub}>Share your goals and constraints. We’ll reply with a tailored proposal—no generic pricing tables.</p>
           </header>
 
           <form
